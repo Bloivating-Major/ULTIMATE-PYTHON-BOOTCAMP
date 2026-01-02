@@ -1,20 +1,32 @@
 ````md
-# ➗ Arithmetic & Assignment Operators in Python
+# 🧮 Python Operators – Complete Guide (Arithmetic, Assignment, Comparison & Logical)
 
-Operators are symbols that are used to **perform operations** on values and variables.
+Operators are **special symbols** used to perform operations on values and variables.
 
-In this lesson, we will learn:
-- Arithmetic Operators
-- Assignment Operators
-- Simple examples for easy understanding
+In Python, operators help us:
+- Do calculations
+- Assign values
+- Compare values
+- Make decisions using logic
 
 ---
 
-## 🧮 Arithmetic Operators
+## 📚 Types of Operators Covered
 
-Arithmetic operators are used to perform **mathematical calculations**.
+1. Arithmetic Operators  
+2. Assignment Operators  
+3. Comparison Operators  
+4. Logical Operators  
 
-### List of Arithmetic Operators
+---
+
+# ➗ 1. Arithmetic Operators
+
+Arithmetic operators are used to perform **mathematical operations**.
+
+---
+
+## 🔹 List of Arithmetic Operators
 
 | Operator | Name | Example |
 |--------|------|--------|
@@ -22,28 +34,26 @@ Arithmetic operators are used to perform **mathematical calculations**.
 | `-` | Subtraction | `10 - 5` |
 | `*` | Multiplication | `10 * 5` |
 | `/` | Division | `10 / 5` |
-| `%` | Modulus | `10 % 3` |
+| `%` | Modulus (Remainder) | `10 % 3` |
 | `//` | Floor Division | `10 // 3` |
-| `**` | Exponent (Power) | `2 ** 3` |
+| `**` | Power (Exponent) | `2 ** 3` |
 
 ---
 
-### Examples
+## 🔹 Examples
 
 ```python
 a = 10
 b = 3
 
-print(a + b)   # Addition
-print(a - b)   # Subtraction
-print(a * b)   # Multiplication
-print(a / b)   # Division
-print(a % b)   # Modulus
-print(a // b)  # Floor Division
-print(a ** b)  # Power
+print(a + b)
+print(a - b)
+print(a * b)
+print(a / b)
+print(a % b)
+print(a // b)
+print(a ** b)
 ````
-
----
 
 ### Output
 
@@ -59,22 +69,22 @@ print(a ** b)  # Power
 
 ---
 
-### Important Notes
+## 📝 Important Notes
 
-* `/` always returns a **float**
+* `/` always gives **float**
 * `//` removes decimal part
-* `%` gives the **remainder**
+* `%` gives remainder
 * `**` is used for power
 
 ---
 
-## 📝 Assignment Operators
+# 📝 2. Assignment Operators
 
-Assignment operators are used to **assign values to variables**.
+Assignment operators are used to **assign or update values** in variables.
 
 ---
 
-### Basic Assignment
+## 🔹 Basic Assignment
 
 ```python
 x = 10
@@ -82,7 +92,7 @@ x = 10
 
 ---
 
-### List of Assignment Operators
+## 🔹 List of Assignment Operators
 
 | Operator | Example   | Meaning      |
 | -------- | --------- | ------------ |
@@ -97,7 +107,7 @@ x = 10
 
 ---
 
-### Examples
+## 🔹 Examples
 
 ```python
 x = 10
@@ -115,8 +125,6 @@ x /= 4
 print(x)
 ```
 
----
-
 ### Output
 
 ```text
@@ -128,45 +136,203 @@ print(x)
 
 ---
 
+# ⚖️ 3. Comparison Operators
+
+Comparison operators are used to **compare two values**.
+They always return **True or False**.
+
+---
+
+## 🔹 List of Comparison Operators
+
+| Operator | Meaning               | Example  |
+| -------- | --------------------- | -------- |
+| `==`     | Equal to              | `5 == 5` |
+| `!=`     | Not equal             | `5 != 3` |
+| `>`      | Greater than          | `10 > 5` |
+| `<`      | Less than             | `3 < 7`  |
+| `>=`     | Greater than or equal | `5 >= 5` |
+| `<=`     | Less than or equal    | `4 <= 6` |
+
+---
+
+## 🔹 Examples
+
+```python
+a = 10
+b = 5
+
+print(a == b)
+print(a != b)
+print(a > b)
+print(a < b)
+print(a >= b)
+print(a <= b)
+```
+
+### Output
+
+```text
+False
+True
+True
+False
+True
+False
+```
+
+---
+
 ## 🧠 Real-Life Example
 
 ```python
-balance = 1000
+age = 18
 
-balance += 500   # deposit
-balance -= 200   # withdraw
+print(age >= 18)
+```
 
-print("Final Balance:", balance)
+Output:
+
+```text
+True
+```
+
+👉 Used in **conditions and decision making**
+
+---
+
+# 🧠 4. Logical Operators
+
+Logical operators are used to **combine conditions**.
+
+They mostly work with **True / False** values.
+
+---
+
+## 🔹 List of Logical Operators
+
+| Operator | Meaning                             |
+| -------- | ----------------------------------- |
+| `and`    | Both conditions must be True        |
+| `or`     | At least one condition must be True |
+| `not`    | Reverses the result                 |
+
+---
+
+## 🔹 Logical `and`
+
+```python
+age = 20
+has_id = True
+
+print(age >= 18 and has_id)
+```
+
+Output:
+
+```text
+True
 ```
 
 ---
 
-## 🧪 Practice Questions
-
-1. What is the output of:
+## 🔹 Logical `or`
 
 ```python
-print(10 // 4)
+marks = 35
+sports_quota = True
+
+print(marks >= 40 or sports_quota)
 ```
 
-2. Find the remainder when `25` is divided by `4`.
+Output:
 
-3. Predict the output:
-
-```python
-x = 5
-x **= 3
-print(x)
+```text
+True
 ```
 
 ---
 
-## ✅ Summary
+## 🔹 Logical `not`
 
-✔ Arithmetic operators perform calculations
-✔ Assignment operators update variable values
-✔ Python code becomes shorter and cleaner
-✔ Used in almost every program
+```python
+is_logged_in = False
+
+print(not is_logged_in)
+```
+
+Output:
+
+```text
+True
+```
+
+---
+
+## 🔁 Truth Table (Easy Understanding)
+
+### AND
+
+| A     | B     | Result |
+| ----- | ----- | ------ |
+| True  | True  | True   |
+| True  | False | False  |
+| False | True  | False  |
+| False | False | False  |
+
+### OR
+
+| A     | B     | Result |
+| ----- | ----- | ------ |
+| True  | True  | True   |
+| True  | False | True   |
+| False | True  | True   |
+| False | False | False  |
+
+---
+
+# 🧪 Practice Questions
+
+1. What is the output?
+
+```python
+print(5 > 3 and 10 < 5)
+```
+
+2. Predict the output:
+
+```python
+x = 10
+y = 20
+print(x == 10 or y == 5)
+```
+
+3. Find output:
+
+```python
+print(not (5 == 5))
+```
+
+---
+
+# ✅ Final Summary
+
+✔ Arithmetic → calculations
+✔ Assignment → store & update values
+✔ Comparison → compare values
+✔ Logical → decision making
+
+👉 These operators are **used everywhere** in Python.
+
+---
+
+## 🚀 What’s Next?
+
+Next topic:
+
+* Conditional Statements (`if`, `elif`, `else`)
+* Flow control
+* Real decision-based programs
 
 Keep practicing 🐍💙
 Happy Coding!

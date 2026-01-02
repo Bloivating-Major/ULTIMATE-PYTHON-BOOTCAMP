@@ -46,6 +46,15 @@ Click on any module below to access its notes 👇
 
 ---
 
+### 🔹 Module 02: Operators in Python
+👉 [View Module 02 Notes](./02OperatorsInPython.md)
+
+**Topics Covered:**
+- Arithmetic and Assignment Operator
+- Comparison and Logical Operator
+
+---
+
 ## 🛠 How to Use This Repository
 
 1. Start from **Module 01**
