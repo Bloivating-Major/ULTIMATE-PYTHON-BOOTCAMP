@@ -138,8 +138,26 @@
 # Print the final bill
 # SHOP Discount Calculator
 
+# bill = int(input("Please tell your total amount : "))
+
+# if bill >= 1000 and bill < 5000 :
+#     print(f"You got discount of 10% your final amuont is {(bill * 90)/100}")
+# elif bill >= 5000 :
+#     print(f"You got discount of 20% your final amount is {(bill * 80)/100}")
+# else :
+#     print("Sorry no discount for you!")
+
 # Question No 10
 # Vowel and Consonant
 # Accept a sigle character from user and check
 # if it is vowel (a, e, i , o, u) or consonent 
 # invalid char check and case sensitive char check!
+
+char = input("Please tell your Alphabet : ")
+
+if char in "aeiouAEIOU" :
+    print("It is a vowel")
+elif char in "bcdfghjklmnpqrstvwxyzBCDFGHJKLMNPQRSTVWXYZ" :
+    print("It is a consonent")
+else :
+    print("Invalid Input")
