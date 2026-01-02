@@ -55,6 +55,14 @@ Click on any module below to access its notes 👇
 
 ---
 
+### 🔹 Git and Github
+👉 [View Git and Github Notes](./Module02/Readme.md)
+
+**Topics Covered:**
+- Git and GitHub from scratch
+
+---
+
 ## 🛠 How to Use This Repository
 
 1. Start from **Module 01**
