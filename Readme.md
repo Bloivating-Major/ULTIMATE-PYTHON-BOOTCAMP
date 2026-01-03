@@ -63,6 +63,17 @@ Click on any module below to access its notes 👇
 
 ---
 
+### 🔹 Module 03: Conditional Statements
+👉 [View Module 03 Notes](./03IfElseInPython.md)
+
+**Topics Covered:**
+- If Else
+- ElIf Lader
+- Logic Training Questions on If Else
+
+---
+
+
 ## 🛠 How to Use This Repository
 
 1. Start from **Module 01**
