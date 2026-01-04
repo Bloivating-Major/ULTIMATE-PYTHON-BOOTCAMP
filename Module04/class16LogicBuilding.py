@@ -76,3 +76,74 @@
 #         oddSum = oddSum + i
 
 # print(f"Even Sum is {evenSum} and Odd Sum is {oddSum}")
+
+#Q7 Print all factors sum take input from user
+# # user will input
+# calculate the factors
+# sum them up
+
+# 6 => 1, 2, 3, 6 sum = 12
+
+# factor => number that divides given number completely
+
+# n = int(input("Enter a number : "))
+
+# factSum = 0
+
+# for i in range(1, n+1) :
+#     if n % i == 0 :
+#         factSum = factSum + i
+
+# print(f"Sum of all factors : {factSum}")
+# print(n % 1)
+# print(n % 2)
+# print(n % 3)
+# print(n % 4)
+# print(n % 5)
+# print(n % 6)
+
+#Q9 Power Calculation ( a ^ b)
+# take input from user as a  = base number b = exponent
+# calculate the result using a for loop without using ( ** )
+
+# 2 ^ 3 = 2 x 2 x 2 = 8 
+# 5 ^ 4 = 5 x 5 x 5 x 5 = 125
+
+# base = 2 
+# expo = 3
+# power = 1
+
+# for i in range(1, expo+1, 1) : 
+#     power = power * base
+
+# print(power)
+
+# Q10 Prime Number Check
+# Accept a number from a user and ceck if it is 
+# divisible by 1 and itself! 
+# Mhnjech to number prime ahe ki nhi he check kra!
+
+# 1 is 1 prime or not?
+
+# prime number has exact 2 factors
+# => 1 and number itself 
+
+# ex : 2, 3, 5, 7, 11, 13
+
+# 2 => No, 3 => No , 4 => No, 5 => No, 6 => No => 7
+# 2 => Yes , 3 => No, 4 => Yes, 5 => No, 6 => No , 7 => No
+
+n = int(input("Enter a number : "))
+
+if n <= 1 : 
+    print("Not Prime")
+else :
+    isPrime = True
+    for i in range(2, n) : 
+        if  n % i == 0 : 
+            isPrime = False
+            break
+    if isPrime == True :
+        print("Prime Number")
+    else : 
+        print("Not Prime Number")
