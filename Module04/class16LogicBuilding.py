@@ -133,17 +133,17 @@
 # 2 => No, 3 => No , 4 => No, 5 => No, 6 => No => 7
 # 2 => Yes , 3 => No, 4 => Yes, 5 => No, 6 => No , 7 => No
 
-n = int(input("Enter a number : "))
+# n = int(input("Enter a number : "))
 
-if n <= 1 : 
-    print("Not Prime")
-else :
-    isPrime = True
-    for i in range(2, n) : 
-        if  n % i == 0 : 
-            isPrime = False
-            break
-    if isPrime == True :
-        print("Prime Number")
-    else : 
-        print("Not Prime Number")
+# if n <= 1 : 
+#     print("Not Prime")
+# else :
+#     isPrime = True
+#     for i in range(2, n) : 
+#         if  n % i == 0 : 
+#             isPrime = False
+#             break
+#     if isPrime == True :
+#         print("Prime Number")
+#     else : 
+#         print("Not Prime Number")
