@@ -73,6 +73,18 @@ Click on any module below to access its notes 👇
 
 ---
 
+### 🔹 Module 04: Loops In Python
+👉 [View Module 03 Notes For Loop ](./04LoopsForLoop.md)
+👉 [View Module 03 Notes While Loop ](./05LoopsWhileLoop.md)
+
+**Topics Covered:**
+- For Loop
+- While Loop
+- Break & Continue
+- Logic Based Questions
+
+---
+
 
 ## 🛠 How to Use This Repository
 
