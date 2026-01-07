@@ -75,7 +75,12 @@ Click on any module below to access its notes 👇
 
 ### 🔹 Module 04: Loops In Python
 👉 [View Module 03 Notes For Loop ](./04LoopsForLoop.md)
+<br>
 👉 [View Module 03 Notes While Loop ](./05LoopsWhileLoop.md)
+<br>
+👉 [View Module 03 Game Notes ](./06GameBasedOnLoops.md)
+<br>
+
 
 **Topics Covered:**
 - For Loop
