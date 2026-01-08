@@ -62,19 +62,25 @@
 
 # print(f"You have {money} Rs left!")
 
-# contri = int(input("Kiti paise gola jhale? : "))
+contri = int(input("Kiti paise gola jhale? : "))
 
-# if contri <= 10 and contri >=5 :
-#     print("Chocolate chi goli gheu apan!")
+if contri <= 10 and contri >=5 :
+    print("Chocolate chi goli gheu apan!")
     
-# elif contri > 10 and contri <= 50 :
-#     print("Cadbury gheu apan!")
+elif contri > 10 and contri <= 50 :
+    print("Cadbury gheu apan!")
     
-# elif contri > 50 and contri <= 100 : 
-#     print("Wafers and Cupcake gheu apan!")
+elif contri > 50 and contri <= 100 : 
+    print("Wafers and Cupcake gheu apan!")
     
-# elif contri > 100 :
-#     print("Hotel madhe j1 karu apan!")
+elif contri > 100 :
+    print("Hotel madhe j1 karu apan!")
     
-# else :
-#     print("Kami paise aslya mule apan kahich karu shakat nhi!")
+else :
+    print("Kami paise aslya mule apan kahich karu shakat nhi!")
+
+num = int(input("Enter a number: "))
+if num % 2 == 0:
+    print("Even Number")
+else:
+    print("Odd Number")
