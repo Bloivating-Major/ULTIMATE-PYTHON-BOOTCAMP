@@ -90,6 +90,19 @@ Click on any module below to access its notes 👇
 
 ---
 
+### 🔹 Module 05: Functions in Python
+👉 [View Module 05 Notes](./07Functions.md)
+
+
+**Topics Covered:**
+✔ Functions reduce repetition
+✔ Improve readability
+✔ Make code reusable
+✔ Support arguments & returns
+✔ `args` and `kwargs` handle flexibility
+
+---
+
 
 ## 🛠 How to Use This Repository
 
