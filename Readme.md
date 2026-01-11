@@ -103,6 +103,22 @@ Click on any module below to access its notes 👇
 
 ---
 
+### 🔹 Module 06: Data-Structures in Python
+👉 [View Data-Structures Notes](./DataStructure.md)
+<br/>
+👉 [View LIST Notes](./08DataStructureList.md)
+
+
+
+**Topics Covered:**
+✔ Functions reduce repetition
+✔ Improve readability
+✔ Make code reusable
+✔ Support arguments & returns
+✔ `args` and `kwargs` handle flexibility
+
+---
+
 
 ## 🛠 How to Use This Repository
 
