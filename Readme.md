@@ -107,15 +107,16 @@ Click on any module below to access its notes 👇
 👉 [View Data-Structures Notes](./DataStructure.md)
 <br/>
 👉 [View LIST Notes](./08DataStructureList.md)
+<br/>
+👉 [View LIST Logic Based Questions Notes](./09DataStructureListLogicalQuestion.md)
 
 
 
 **Topics Covered:**
-✔ Functions reduce repetition
-✔ Improve readability
-✔ Make code reusable
-✔ Support arguments & returns
-✔ `args` and `kwargs` handle flexibility
+* Lists in depth
+* Tuples vs Lists
+* Sets & Dictionaries
+* Data Structures + Algorithms (DSA)
 
 ---
 
