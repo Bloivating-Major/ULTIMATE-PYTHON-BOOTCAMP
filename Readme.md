@@ -109,6 +109,8 @@ Click on any module below to access its notes 👇
 👉 [View LIST Notes](./08DataStructureList.md)
 <br/>
 👉 [View LIST Logic Based Questions Notes](./09DataStructureListLogicalQuestion.md)
+<br/>
+👉 [View Tuples Notes](./10DataStructureTuples.md)
 
 
 
