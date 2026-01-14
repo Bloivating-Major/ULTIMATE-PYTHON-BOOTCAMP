@@ -111,6 +111,10 @@ Click on any module below to access its notes 👇
 👉 [View LIST Logic Based Questions Notes](./09DataStructureListLogicalQuestion.md)
 <br/>
 👉 [View Tuples Notes](./10DataStructureTuples.md)
+<br/>
+👉 [View SET Notes](./11DataStructureSet.md)
+<br/>
+👉 [View Dictionary Notes](./12DataStructureDictionary.md)
 
 
 
